@@ -218,3 +218,13 @@ ul li a:hover {
     margin: 0px;
 }
 
+@media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-info, .policies, .subscribe {
+      width: 100%;
+    }
+}
